@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="mysqlclient" />
+            <item index="1" class="java.lang.String" itemvalue="pywin32" />
+            <item index="2" class="java.lang.String" itemvalue="pywinpty" />
+            <item index="3" class="java.lang.String" itemvalue="Flask-MySQLdb" />
+            <item index="4" class="java.lang.String" itemvalue="mysql" />
+            <item index="5" class="java.lang.String" itemvalue="twisted-iocpsupport" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="websocket_generic.consumers.self" />
+          <option value="signal_django.views.ViewSets" />
+          <option value="OWLSENSE_CORE_SERVER.target_management.urls.target_management" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
